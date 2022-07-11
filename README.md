@@ -36,3 +36,6 @@
 3. 機能実装：7/6 - 8/14
 4. MVPリリース：8/15〆切
 5. 本リリース：8/31
+
+■画面遷移図
+https://www.figma.com/file/T32qNtDPCQnkTn9Od6kV4Y/hitokarabu?node-id=0%3A1
