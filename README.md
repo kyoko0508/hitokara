@@ -38,4 +38,7 @@
 5. 本リリース：8/31
 
 ■画面遷移図
-https://www.figma.com/file/T32qNtDPCQnkTn9Od6kV4Y/hitokarabu?node-id=0%3A1
+https://www.figma.com/file/T32qNtDPCQnkTn9Od6kV4Y/hitokarabu?node-id=13%3A137
+
+■ER図
+https://drive.google.com/file/d/19HDNqPxhCmbbTGMp7p8J2Yef2RJWQcvY/view?usp=sharing
