@@ -13,12 +13,14 @@
 ■なぜこのサービスを作りたいのか ヒトカラ好きな人にヒトカラ専門店の良さを知って欲しい！
 
 ■スケジュール
+1. 企画（アイデア企画・技術調査）：7/6〆切
+2. 設計（README作成・画面遷移図作成・ER図作成）：7/6 〆切
+3. 機能実装：7/6 - 8/14
+4. MVPリリース：8/15〆切
+5. 本リリース：8/31
 
-企画（アイデア企画・技術調査）：7/6〆切
-設計（README作成・画面遷移図作成・ER図作成）：7/6 〆切
-機能実装：7/6 - 8/14
-MVPリリース：8/15〆切
-本リリース：8/31
-■画面遷移図 https://www.figma.com/file/T32qNtDPCQnkTn9Od6kV4Y/hitokarabu?node-id=13%3A137
+■画面遷移図
+https://www.figma.com/file/T32qNtDPCQnkTn9Od6kV4Y/hitokarabu?node-id=13%3A137
 
-■ER図 https://drive.google.com/file/d/19HDNqPxhCmbbTGMp7p8J2Yef2RJWQcvY/view?usp=sharing
+■ER図
+https://drive.google.com/file/d/19HDNqPxhCmbbTGMp7p8J2Yef2RJWQcvY/view?usp=sharing
