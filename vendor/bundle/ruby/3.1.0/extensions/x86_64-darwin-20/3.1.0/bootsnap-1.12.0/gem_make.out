@@ -1,0 +1,15 @@
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+/Users/makishitakyoko/.rbenv/versions/3.1.2/bin/ruby -I /Users/makishitakyoko/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-iy52ln sitelibdir\=./.gem.20220714-64794-iy52ln clean
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-iy52ln sitelibdir\=./.gem.20220714-64794-iy52ln
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-iy52ln sitelibdir\=./.gem.20220714-64794-iy52ln install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220714-64794-iy52ln/bootsnap

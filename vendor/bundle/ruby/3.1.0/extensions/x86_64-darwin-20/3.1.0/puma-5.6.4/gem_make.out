@@ -1,0 +1,26 @@
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
+/Users/makishitakyoko/.rbenv/versions/3.1.2/bin/ruby -I /Users/makishitakyoko/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+using OpenSSL pkgconfig (openssl.pc)
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-92iai4 sitelibdir\=./.gem.20220714-64794-92iai4 clean
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-92iai4 sitelibdir\=./.gem.20220714-64794-92iai4
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20220714-64794-92iai4 sitelibdir\=./.gem.20220714-64794-92iai4 install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220714-64794-92iai4/puma
