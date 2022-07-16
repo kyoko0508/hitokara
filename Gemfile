@@ -37,6 +37,9 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'font-awesome-sass', '~> 5.11.2'
 gem 'jquery-rails'
 
+gem 'sorcery', '0.16.3'
+gem 'pry-byebug'
+
 gem 'bootstrap-sass'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
