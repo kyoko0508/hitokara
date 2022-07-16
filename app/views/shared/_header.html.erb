@@ -1,0 +1,23 @@
+<header>
+  <nav class='navbar navbar-expand-md top-logo nav-menu'>
+    <div class="container">
+      <%= link_to root_path, class: 'navbar-brand text-white header-font','data-turbolinks': false do %>
+        
+      <% end %>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item d-md-flex">
+          <%= link_to '地図から探す', '#', class: 'dropdown-item' %>
+          <%= link_to 'ヒトカラ専門店一覧', '#', class: 'dropdown-item' %>
+          <%= link_to 'いいね一覧', '#', class: 'dropdown-item' %>
+          <%= link_to 'ログイン', '#', class: 'dropdown-item' %>
+          <%= link_to '新規登録', '#', class: 'dropdown-item' %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
