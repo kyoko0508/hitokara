@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/logout' => 'user_sessions#destroy'
 
   resources :users
+  resources :shops, only: %i[index show]
 end
