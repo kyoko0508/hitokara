@@ -9,4 +9,9 @@ Rails.application.routes.draw do
 
   resources :users
   resources :shops, only: %i[index show]
+
+  resources :shops do
+    get 'likes', on: :collection
+    resource :like, only: %i[create destroy]
+  end
 end

@@ -2,4 +2,9 @@
   <td><%= shop.name %></td>
   <td><%= shop.phone_number %></td>
   <td><%= shop.address %></td>
+  <% if current_user.likes.include?(shop) %>
+  <td><%= link_to 'UnLike', shop_like_path(shop), data: { turbo_method: :delete } %></td>
+  <% else %>
+  <td><%= link_to 'Like', shop_like_path(shop), data: { turbo_method: :post } %></td>
+  <% end %>
 </tr>
