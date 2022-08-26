@@ -1,12 +1,12 @@
 current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.4/ext/mysql2
-/Users/makishitakyoko/.rbenv/versions/3.1.2/bin/ruby -I /Users/makishitakyoko/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+/Users/makishitakyoko/.rbenv/versions/3.1.2/bin/ruby -I /Users/makishitakyoko/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb --with-opt-dir\=/usr/local/opt/openssl@3
 /usr/local/bin/brew
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for rb_wait_for_single_fd()... yes
 checking for rb_enc_interned_str() in ruby.h... yes
 -----
-Using mysql_config at /usr/local/bin/mysql_config
+Using mysql_config at /usr/local/opt/mysql@5.7/bin/mysql_config
 -----
 checking for mysql.h... yes
 checking for errmsg.h... yes
@@ -24,17 +24,17 @@ checking for SERVER_QUERY_NO_INDEX_USED in mysql.h... yes
 checking for SERVER_QUERY_WAS_SLOW in mysql.h... yes
 checking for MYSQL_OPTION_MULTI_STATEMENTS_ON in mysql.h... yes
 checking for MYSQL_OPTION_MULTI_STATEMENTS_OFF in mysql.h... yes
-checking for my_bool in mysql.h... no
+checking for my_bool in mysql.h... yes
 -----
-Setting rpath to /usr/local/Cellar/mysql/8.0.29/lib
+Setting rpath to /usr/local/opt/mysql@5.7/lib
 -----
 creating Makefile
 
 current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.4/ext/mysql2
-make DESTDIR\= sitearchdir\=./.gem.20220714-64794-4dswdc sitelibdir\=./.gem.20220714-64794-4dswdc clean
+make DESTDIR\= sitearchdir\=./.gem.20220823-66364-6eyxsn sitelibdir\=./.gem.20220823-66364-6eyxsn clean
 
 current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.4/ext/mysql2
-make DESTDIR\= sitearchdir\=./.gem.20220714-64794-4dswdc sitelibdir\=./.gem.20220714-64794-4dswdc
+make DESTDIR\= sitearchdir\=./.gem.20220823-66364-6eyxsn sitelibdir\=./.gem.20220823-66364-6eyxsn
 compiling client.c
 compiling infile.c
 compiling mysql2_ext.c
@@ -45,8 +45,7 @@ result.c:258:35: warning: implicit conversion loses integer precision: 'unsigned
 1 warning generated.
 compiling statement.c
 linking shared-object mysql2/mysql2.bundle
-ld: warning: directory not found for option '-L/usr/local/opt/openssl@3/lib'
 
 current directory: /Users/makishitakyoko/hitokara/vendor/bundle/ruby/3.1.0/gems/mysql2-0.5.4/ext/mysql2
-make DESTDIR\= sitearchdir\=./.gem.20220714-64794-4dswdc sitelibdir\=./.gem.20220714-64794-4dswdc install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20220714-64794-4dswdc/mysql2
+make DESTDIR\= sitearchdir\=./.gem.20220823-66364-6eyxsn sitelibdir\=./.gem.20220823-66364-6eyxsn install
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20220823-66364-6eyxsn/mysql2
