@@ -39,6 +39,7 @@ gem 'jquery-rails'
 
 gem 'sorcery', '0.16.3'
 gem 'pry-byebug'
+gem 'seed-fu'
 
 gem 'bootstrap-sass'
 
