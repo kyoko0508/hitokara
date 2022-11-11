@@ -8,10 +8,11 @@ Rails.application.routes.draw do
   get '/logout' => 'user_sessions#destroy'
 
   resources :users
-  resources :shops, only: %i[index show]
-
-  resources :shops do
-    get 'likes', on: :collection
-    resource :like, only: %i[create destroy]
+  resources :shops, only: %i[index show] do
+    collection do
+      get :likes
+    end
+    resources :likes, only: %i[create destroy]
   end
+    
 end
