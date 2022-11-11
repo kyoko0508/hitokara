@@ -1,0 +1,10 @@
+<tr>
+  <td><%= shop.name %></td>
+  <td><%= shop.phone_number %></td>
+  <td><%= shop.address %></td>
+  <% if current_user.like?(shop) %>
+  <td><%= link_to 'いいね解除', shop_like_path(shop,shop), data: { turbo_method: :delete } %></td>
+  <% else %>
+  <td><%= link_to 'いいね', shop_likes_path(shop), data: { turbo_method: :post } %></td>
+  <% end %>
+</tr>

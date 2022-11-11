@@ -1,3 +1,4 @@
+<h1>いいね一覧</h1>
 <div class="container pt-3">
   <div class="row">
     <div class='table-responsive'>
@@ -9,12 +10,17 @@
             <th scope="col">住所</th>
           </tr>
         </thead>
+
         <tbody>
-          <% @shops.each do |shop| %>
-            <%= render 'shop', shop: shop %>
-          <% end %>
+        <% @liked_shops.each do |shop| %>
+        <tr>
+            <td><%= shop.name %></td>
+            <td><%= shop.phone_number %></td>
+            <td><%= shop.address %></td>
+        </tr>
+        <% end %>
         </tbody>
       </table>
     </div>
-  </div>
+   </div>
 </div>
